@@ -74,3 +74,5 @@ end
 gem 'rubocop', '>= 1.0', '< 2.0'
 
 gem 'pg'
+
+gem 'webpacker', '~> 5.0'
