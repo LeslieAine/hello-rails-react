@@ -13,7 +13,7 @@ const Greetings = () => {
   return (
     <div>
         <h1>{greetings.message}</h1>
-        <h2>Greetings</h2>
+        <h2>Working</h2>
     </div>
   )
 }
