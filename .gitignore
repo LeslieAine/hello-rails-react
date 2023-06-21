@@ -11,6 +11,9 @@
 /db/*.sqlite3
 /db/*.sqlite3-*
 
+# .gitignore
+node_modules/
+
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
@@ -38,3 +41,12 @@
 !/app/assets/builds/.keep
 
 /node_modules
+
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+.yarn
